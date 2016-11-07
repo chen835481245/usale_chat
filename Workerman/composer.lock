@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "4d0a7c3601a0b2738caa464a8bafa750",
+    "content-hash": "f2f9b967227bcc5ec76154ed4142bf93",
+    "packages": [
+        {
+            "name": "jpush/jpush",
+            "version": "v3.5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jpush/jpush-api-php-client.git",
+                "reference": "14506f5da8fc3248264d277e75c30e201b23ad9d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.phpcomposer.com/files/jpush/jpush-api-php-client/14506f5da8fc3248264d277e75c30e201b23ad9d.zip",
+                "reference": "14506f5da8fc3248264d277e75c30e201b23ad9d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JPush\\": "src/JPush/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "JPush",
+                    "email": "support@jpush.cn",
+                    "homepage": "https://www.jpush.cn/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "JPush API PHP Client",
+            "homepage": "https://github.com/jpush/jpush-api-php-client",
+            "time": "2016-10-25 13:10:40"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3"
+    },
+    "platform-dev": []
+}

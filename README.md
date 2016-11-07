@@ -1,6 +1,6 @@
 workerman-chat
 =======
-基于workerman的GatewayWorker框架开发的一款高性能支持分布式部署的聊天室系统。
+基于workerman的GatewayWorker框架开发的一款高性能支持分布式部署的微信客服系统。
 
 GatewayWorker框架文档：http://www.workerman.net/gatewaydoc/
 
@@ -12,7 +12,8 @@ GatewayWorker框架文档：http://www.workerman.net/gatewaydoc/
  * 私聊支持
  * 掉线自动重连
  * 支持多服务器部署
- * 业务逻辑全部在一个文件中，快速入门可以参考这个文件[Applications/Chat/Event.php](https://github.com/walkor/workerman-chat/blob/master/Applications/Chat/Event.php)   
+ * 业务逻辑全部在一个文件中，快速入门可以参考这个文件[Applications/Chat/Event.php](https://github.com/walkor/workerman-chat/blob/master/Applications/Chat/Event.php)  
+ * 实现微信公众号和APP之间的相互通信 
   
 启动停止(Linux系统)
 =====
